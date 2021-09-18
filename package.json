@@ -1,0 +1,27 @@
+{
+    "name": "http-api-assignment",
+    "version": "1.0.0",
+    "description": "Week 3 assignment for IGME 430",
+    "main": "server.js",
+    "dependencies": {
+        "eslint": "^7.32.0",
+        "eslint-config-airbnb": "^18.2.1",
+        "eslint-plugin-import": "^2.24.2"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "node ./src/server.js",
+        "pretest": "eslint ./src --fix",
+        "test": "echo \"Tests complete\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/anoopix/http-api-assignment.git"
+    },
+    "author": "Anoop Rajeevan",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/anoopix/http-api-assignment/issues"
+    },
+    "homepage": "https://github.com/anoopix/http-api-assignment#readme"
+}
